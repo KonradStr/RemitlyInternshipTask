@@ -24,7 +24,6 @@ public class SwiftCodesController {
 
     @GetMapping("/{swift-code}")
     public ResponseEntity<SwiftCodeResponse> getSwiftCodeDetails(@PathVariable("swift-code") String swiftCode) {
-        log.info("");
         SwiftCodeResponse response = service.getSwiftCodeDetails(swiftCode);
 
         if (response == null) {

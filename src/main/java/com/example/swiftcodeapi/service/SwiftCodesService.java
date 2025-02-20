@@ -66,8 +66,8 @@ public class SwiftCodesService {
                     Country country = countryMap.get(iso2);
                     if (country == null) { // if new country
                         country = new Country();
-                        country.setIso2(iso2);
-                        country.setName(countryName);
+                        country.setIso2(iso2.toUpperCase());
+                        country.setName(countryName.toUpperCase());
 
                         country = countryRepo.save(country);
                         countryMap.put(iso2, country);
@@ -151,8 +151,8 @@ public class SwiftCodesService {
 
         if (country == null) {
             country = new Country();
-            country.setIso2(request.getCountryISO2());
-            country.setName(request.getCountryName());
+            country.setIso2(request.getCountryISO2().toUpperCase());
+            country.setName(request.getCountryName().toUpperCase());
             try {
                 countryRepo.save(country);
                 log.info("Country added to database: ISO2={}, Name={}", request.getCountryISO2(), request.getCountryName());
