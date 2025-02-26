@@ -128,7 +128,7 @@ public class SwiftCodesService {
         List<Bank> countrySwiftCodes = bankRepo.findByCountry(country);
 
         CountrySwiftCodeResponse response = new CountrySwiftCodeResponse();
-        response.setCountryIOS2(country.getIso2());
+        response.setCountryISO2(country.getIso2());
         response.setCountryName(country.getName());
 
         List<SwiftCodeInfo> swiftCodes = new ArrayList<>();

@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CountrySwiftCodeResponse {
-    private String countryIOS2;
+    private String countryISO2;
     private String countryName;
     private List<SwiftCodeInfo> swiftCodes;
 }

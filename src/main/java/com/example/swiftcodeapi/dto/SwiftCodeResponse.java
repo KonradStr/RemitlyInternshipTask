@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class SwiftCodeResponse {
+public abstract class SwiftCodeResponse {
     private String address;
     private String bankName;
     private String countryISO2;
