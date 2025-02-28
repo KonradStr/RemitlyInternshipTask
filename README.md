@@ -82,28 +82,28 @@ mvn test
 
 ```json
 {
-  "address": string,
-  "bankName": string,
-  "countryISO2": string,
-  "countryName": string,
-  "isHeadquarter": bool,
-  "swiftCode": string
+  "address": "string",
+  "bankName": "string",
+  "countryISO2": "string",
+  "countryName": "string",
+  "isHeadquarter": "bool",
+  "swiftCode": "string",
   "branches": [
     {
-      "address": string,
-      "bankName": string,
-      "countryISO2": string,
-      "isHeadquarter": bool,
-      "swiftCode": string
+      "address": "string",
+      "bankName": "string",
+      "countryISO2": "string",
+      "isHeadquarter": "boolean",
+      "swiftCode": "string"
     },
     {
-      "address": string,
-      "bankName": string,
-      "countryISO2": string,
-      "isHeadquarter": bool,
-      "swiftCode": string
+      "address": "string",
+      "bankName": "string",
+      "countryISO2": "string",
+      "isHeadquarter": "bool",
+      "swiftCode": "string"
     },
-    ...
+    "..."
   ]
 }
 ```
@@ -112,12 +112,12 @@ mvn test
 
 ```json
 {
-  "address": string,
-  "bankName": string,
-  "countryISO2": string,
-  "countryName": string,
-  "isHeadquarter": bool,
-  "swiftCode": string
+  "address": "string",
+  "bankName": "string",
+  "countryISO2": "string",
+  "countryName": "string",
+  "isHeadquarter": "bool",
+  "swiftCode": "string"
 }
 ```
 
@@ -129,24 +129,24 @@ mvn test
 
 ```json
 {
-  "countryISO2": string,
-  "countryName": string,
+  "countryISO2": "string",
+  "countryName": "string",
   "swiftCodes": [
     {
-      "address": string,
-      "bankName": string,
-      "countryISO2": string,
-      "isHeadquarter": bool,
-      "swiftCode": string
+      "address": "string",
+      "bankName": "string",
+      "countryISO2": "string",
+      "isHeadquarter": "bool",
+      "swiftCode": "string"
     },
     {
-      "address": string,
-      "bankName": string,
-      "countryISO2": string,
-      "isHeadquarter": bool,
-      "swiftCode": string
+      "address": "string",
+      "bankName": "string",
+      "countryISO2": "string",
+      "isHeadquarter": "bool",
+      "swiftCode": "string"
     },
-    ...
+    "..."
   ]
 }
 ```
@@ -159,12 +159,12 @@ mvn test
 
 ```json
 {
-  "address": string,
-  "bankName": string,
-  "countryISO2": string,
-  "countryName": string,
-  "isHeadquarter": bool,
-  "swiftCode": string
+  "address": "string",
+  "bankName": "string",
+  "countryISO2": "string",
+  "countryName": "string",
+  "isHeadquarter": "bool",
+  "swiftCode": "string"
 }
 ```
 
@@ -172,7 +172,7 @@ mvn test
 
 ```json
 {
-  "message": string
+  "message": "string"
 }
 ```
 
@@ -184,6 +184,6 @@ mvn test
 
 ```json
 {
-  "message": string
+  "message": "string"
 }
 ```
